@@ -1,0 +1,13 @@
+kind: live
+title: rapids
+
+jobs:
+  jupyter:
+    title: "RAPIDS Jupyter examples"
+    image: rapidsai/rapidsai:cuda10.1-runtime-ubuntu18.04-py3.8
+    preset: gpu-v100-small
+    http_port: 8888
+    http_auth: false
+    browse: True
+    detach: True
+    life_span: 3h
