@@ -1,4 +1,4 @@
-# ml-rapids
+# ml-recipe-rapids
 
 Demo for running Jupyter with NVidia [RAPIDS toolset](https://rapids.ai) on Neu.ro Platform.
 
@@ -11,6 +11,5 @@ Then run:
 ```shell
 pip install -U neuro-cli neuro-flow
 neuro login
-neuro-flow build myimage
 neuro-flow run jupyter
 ```
